@@ -46,19 +46,7 @@
         ]
     },
     "StrucAcc": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+        "paragraph": "Структурный продукт можно сравнить с инвестиционным портфелем, который состоит из инвестиционной и защитной части. Защитная часть может включать в себя депозиты и облигации, что обеспечивает стабильный и защищенный доход. Средства, вложенные в инвестиционную часть, распределяются в ценные бумаги, валюту и акции.\nВ случае неблагоприятного развития ситуации на рынке, защитная часть позволяет частично или полностью компенсировать снижение активов, входящих в инвестиционную часть.\nИнвестор может сам выбрать уровень защиты или воспользоваться готовым решением. Finance & trade предлагает своим клиентам структурные продукты с уровнем защиты капитала до 100 процентов."
     },
     "Services": [{
             "icon": "fa fa-wordpress",
