@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navigation from './navigation';
 import Header from './header';
 import Features from './features';
-import About from './about';
+import About from './shares';
 import Services from './services';
 import Gallery from './gallery';
 import Testimonials from './testimonials';

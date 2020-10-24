@@ -280,7 +280,8 @@ header .intro-text {
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+
+    backgroundColor: 'transparent';
 }
 #about p {
 	line-height: 24px;
