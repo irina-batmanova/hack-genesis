@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
 import Header from './components/header';
-import Shares from './components/about';
+import About from './components/about';
 import StrucAcc from './components/struc_acc';
 import Obligations from './components/obligations';
+import DemoCarousel from "./components/carouselShares";
 import Features from './components/features';
-import About from './components/shares';
+import Shares from './components/shares';
 import Services from './components/services';
 import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
@@ -30,12 +31,12 @@ export class App extends Component {
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        {/*<Features data={this.state.landingPageData.Features} />*/}
-        <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
+        <DemoCarousel />
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
         <StrucAcc data={this.state.landingPageData.StrucAcc} />
+        <About data={this.state.landingPageData.About} />
+
 
         {/*<Gallery />*/}
         {/*<Testimonials data={this.state.landingPageData.Testimonials} />*/}
