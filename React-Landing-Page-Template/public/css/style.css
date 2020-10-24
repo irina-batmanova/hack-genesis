@@ -1,3 +1,5 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -221,6 +223,10 @@ header .intro-text {
 	padding-top: 350px;
 	padding-bottom: 200px;
 	text-align: center;
+}
+
+#carouselshares {
+	padding: 100px 0;
 }
 /* Features Section */
 #features {

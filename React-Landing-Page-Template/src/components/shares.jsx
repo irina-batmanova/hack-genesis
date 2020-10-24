@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class obligations extends Component {
+export class shares extends Component {
   render() {
     return (
         <div id="about">
@@ -9,7 +9,8 @@ export class obligations extends Component {
             {/*<div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>*/}
             <div className="col-xs-12 col-md-12">
               <div className="about-text">
-                <h2>Облигации</h2>
+                <h2>Акции</h2>
+                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
               </div>
             </div>
           </div>
@@ -19,4 +20,4 @@ export class obligations extends Component {
   }
 }
 
-export default obligations
+export default shares
