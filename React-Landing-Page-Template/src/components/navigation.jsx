@@ -43,6 +43,11 @@ export class Navigation extends Component {
                   Приложение
                 </a>
               </li>
+              <li>
+                <a href="#contact" className="page-scroll">
+                  Контакты
+                </a>
+              </li>
 
             </ul>
           </div>
