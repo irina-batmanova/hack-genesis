@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Navigation from './navigation';
 import Header from './header';
 import Features from './features';
-import About from './shares';
 import Services from './services';
 import Gallery from './gallery';
 import Testimonials from './testimonials';
@@ -38,9 +37,9 @@ export class App extends Component {
       <div>
         {/*<Navigation />*/}
         <Header data={this.state.resumeData.Header}/>
-        <Features data={this.state.resumeData.Features}/>
-        <About  data={this.state.resumeData.About}/>
         <Services  data={this.state.resumeData.Services}/>
+        <About  data={this.state.resumeData.About}/>
+
         <Gallery />
         <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>
