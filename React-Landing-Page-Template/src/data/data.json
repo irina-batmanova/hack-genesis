@@ -2,13 +2,13 @@
     "Header": {
 
         "title": "Finance & trade",
-        "paragraph": "Инвестиции в акциях, облигациях, рублях и валюте."
+        "paragraph": "Инвестиции в акциях, облигациях, рублях и валюте"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Фв",
         "Why": [
-            "Lorem ipsum dolor",
+            "TESTTESTTESTTESTTEST",
             "Tempor incididunt",
             "Lorem ipsum dolor",
             "Incididunt ut labore"
@@ -23,16 +23,11 @@
     "Shares": {
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Просто - откройте брокерский счет бесплатно в несколько шагов",
+            "Удобно - используйте готовые решения",
+            "Доступно - начните с небольшой суммы, основные инструменты доступны от 1000 ₽"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
         ]
     },
     "Obligations": {
