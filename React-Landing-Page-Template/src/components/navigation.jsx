@@ -34,7 +34,7 @@ export class Navigation extends Component {
                 </a>
               </li>
               <li>
-                <a href="#carouselshares" className="page-scroll">
+                <a href="#products" className="page-scroll">
                   Продукты
                 </a>
               </li>
