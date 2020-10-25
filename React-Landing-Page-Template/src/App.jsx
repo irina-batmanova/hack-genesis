@@ -43,7 +43,7 @@ export class App extends Component {
         {/*<Gallery />*/}
         {/*<Testimonials data={this.state.landingPageData.Testimonials} />*/}
         {/*<Team data={this.state.landingPageData.Team} />*/}
-        {/*<Contact data={this.state.landingPageData.Contact} />*/}
+        <Contact data={this.state.landingPageData.Contact} />
       </div>
     )
   }
