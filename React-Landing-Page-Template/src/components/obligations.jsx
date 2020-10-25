@@ -10,6 +10,7 @@ export class obligations extends Component {
             <div className="col-xs-12 col-md-12">
               <div className="about-text">
                 <h2>Облигации</h2>
+                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
               </div>
             </div>
           </div>
