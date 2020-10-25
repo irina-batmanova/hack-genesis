@@ -5,11 +5,11 @@ import Header from './components/header';
 import About from './components/about';
 import StrucAcc from './components/struc_acc';
 import Obligations from './components/obligations';
-import DemoCarousel from "./components/carouselShares";
+import DemoCarousel1 from "./components/carouselShares1";
 import Products from "./components/products";
 import Features from './components/features';
 import Shares from './components/shares';
-
+import Recommend from './components/mayBeInteresting';
 import Services from './components/services';
 import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
@@ -35,7 +35,8 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
-        {/*<DemoCarousel />*/}
+        <Recommend />
+        <DemoCarousel1 />
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
         <StrucAcc data={this.state.landingPageData.StrucAcc} />

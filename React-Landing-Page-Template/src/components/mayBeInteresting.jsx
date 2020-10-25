@@ -10,7 +10,7 @@ export class recommend extends Component {
             {/*<div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>*/}
             <div className="col-xs-12 col-md-12">
               <div className="about-text">
-                <h2>Вас может заинтересовать</h2>
+                <h2>Может быть интересно</h2>
 {/*                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p> */}
 
 {/*                     <div className="col-lg-6 col-sm-6 col-xs-12"> */}
@@ -28,4 +28,4 @@ export class recommend extends Component {
   }
 }
 
-export default shares
+export default recommend

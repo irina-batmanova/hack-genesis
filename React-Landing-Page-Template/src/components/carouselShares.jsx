@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+// import carousel_view1 from "carousel_view1"
 //
 //
 // import AliceCarousel from 'react-alice-carousel';
@@ -48,21 +49,85 @@ class DemoCarousel extends Component {
   infinite={true}
   keyBoardControl={true}
   customTransition="all .5"
-  transitionDuration={500}
-  containerClass="carousel-container"
+  transitionDuration={200}
+  containerClass="container"
   removeArrowOnDeviceType={["tablet", "mobile"]}
   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
+  itemClass="carousel-item-padding-10-px"
 >
-                  <div className="col-md-3"><img src={"img/shares/pic1.jpg"} className="img-responsive" alt=""></img>
+                  {/*<div className="col-md-3"><img src={"img/shares/pic1.jpg"} className="img-responsive" alt=""></img>
                   </div>
                       <div className="col-md-3"><img src={"img/shares/pic2.jpeg"} className="img-responsive" alt=""></img>
                       </div>
                       <div className="col-md-3"><img src={"img/shares/pic1.jpg"} className="img-responsive" alt=""></img>
                       </div>
                       <div className="col-md-3"><img src={"img/shares/pic1.jpg"} className="img-responsive" alt=""></img>
-                      </div>
+                      </div> */}
+
+                  <div >
+                  <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Акции
+                    </h1>
+
+                    <ul>
+                    {this.props.data ? this.props.data.Prod1.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
+                    </ul>
+
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#shares"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+                    Подробнее
+                  </a>{" "}
+                  </div>
+                  </div>
+                  </div>
+
+
+                   <div>
+                   <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Облигации
+                    </h1>
+                    <ul>
+                      {this.props.data ? this.props.data.Prod2.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                    </ul>
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#obligations"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+
+                    Подробнее
+                  </a>{" "}
+                    </div>
+                    </div>
+                    </div>
+
+                    <div>
+                    <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Фонды
+                    </h1>
+                    <ul>
+                      {this.props.data ? this.props.data.Prod3.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                    </ul>
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#struc_acc"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+                    Подробнее
+                  </a>{" "}
+                  </div>
+                  </div>
+                  </div>
                       {/*<div className="cardBody"><img src={"img/shares/pic1.jpg"}></img></div>*/}
 
 </Carousel>;

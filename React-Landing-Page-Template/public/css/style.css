@@ -444,6 +444,65 @@ header .intro-text {
     transition-duration: 330ms;
 }
 
+/* carousel Section */
+#carouselshares {
+	padding: 100px 0;
+	background: #fff
+	color: #fff;
+}
+#carouselshares .service-desc {
+	margin: 10px 10px 20px;
+}
+#carouselshares h2 {
+	color: #fff;
+}
+#carouselshares .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: rgba(255,255,255,.3);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#carouselshares i.fa {
+	font-size: 42px;
+	width: 120px;
+	height: 120px;
+	padding: 40px 0;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+#carouselshares h3 {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #fff;
+}
+#carouselshares p {
+	color: rgba(255,255,255,.75);
+}
+#carouselshares .service-desc {
+	margin-bottom: 40px;
+}
+
+#carouselshares .custom_boxed {
+    /* border: 2px solid #aaa; */
+    /* background: #000; */
+    background: #fff;
+    border-radius: 25px;
+    /* background: #73AD21; */
+    padding: 20px;
+}
+
+#carouselshares .custom_boxed:hover {
+    /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+    transform: translate(0px, -6px);
+    transition-duration: 330ms;
+}
+
 /* Services Section */
 #services {
 	padding: 100px 0;
@@ -487,6 +546,7 @@ header .intro-text {
 #services .service-desc {
 	margin-bottom: 40px;
 }
+
 
 /* obligations Section */
 #obligations {

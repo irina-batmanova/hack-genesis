@@ -40,6 +40,7 @@ export class App extends Component {
         <Services  data={this.state.resumeData.Services}/>
         <About  data={this.state.resumeData.About}/>
 
+
         <Gallery />
         <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>
