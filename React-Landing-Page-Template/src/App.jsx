@@ -6,6 +6,8 @@ import About from './components/about';
 import StrucAcc from './components/struc_acc';
 import Obligations from './components/obligations';
 import DemoCarousel1 from "./components/carouselShares1";
+import DemoCarousel2 from "./components/carouselShares2";
+import DemoCarousel3 from "./components/carouselShares3";
 import Products from "./components/products";
 import Features from './components/features';
 import Shares from './components/shares';
@@ -36,7 +38,7 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
         <Recommend />
-        <DemoCarousel1 />
+        <DemoCarousel3 />
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
         <StrucAcc data={this.state.landingPageData.StrucAcc} />
