@@ -11,6 +11,12 @@ export class shares extends Component {
               <div className="about-text">
                 <h2>Акции</h2>
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
+
+                    <div className="col-lg-6 col-sm-6 col-xs-12">
+                    <ul>
+                    {this.props.data ? this.props.data.Why.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
+                    </ul>
+                  </div>
               </div>
             </div>
           </div>

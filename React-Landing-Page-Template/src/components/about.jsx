@@ -10,7 +10,7 @@ export class about extends Component {
             <div className="col-xs-12 col-md-4"> <img src="img/app1.png" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>О мобильном приложении «Мир инвестиций»</h2>
+                <h2>Мобильное приложение «Мир инвестиций»</h2>
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
                 <h3>Почему мы?</h3>
                 <div className="list-style">
