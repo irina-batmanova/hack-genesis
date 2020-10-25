@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import App2 from "./App2";
+import App3 from "./App3";
 import * as serviceWorker from './serviceWorker';
 import {
   BrowserRouter as Router,
@@ -15,14 +17,14 @@ ReactDOM.render(
     <Router>
       <div>
         <Switch>
-          <Route path="/about">
+          <Route path="/landing1">
             <App />
           </Route>
-          <Route path="/topics">
-            <App />
+          <Route path="/landing2">
+            <App2 />
           </Route>
           <Route path="/">
-            <App />
+            <App3 />
           </Route>
         </Switch>
       </div>

@@ -5,13 +5,13 @@ import Header from './components/header';
 import About from './components/about';
 import StrucAcc from './components/struc_acc';
 import Obligations from './components/obligations';
-import DemoCarousel1 from "./components/carouselShares1";
+import DemoCarousel3 from "./components/carouselShares3";
 import Products from "./components/products";
 import Shares from './components/shares';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 
-export class App extends Component {
+export class App3 extends Component {
   state = {
     landingPageData: {},
   }
@@ -29,7 +29,7 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
-        <DemoCarousel1 />
+        <DemoCarousel3 />
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
         <StrucAcc data={this.state.landingPageData.StrucAcc} />
@@ -40,4 +40,4 @@ export class App extends Component {
   }
 }
 
-export default App;
+export default App3;
