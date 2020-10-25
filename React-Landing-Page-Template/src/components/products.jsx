@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 export class Products extends Component {
   render() {
     return (
-        <div id="about">
         <div id="products">
+
         <div className="container">
             <div className="row">
             {/*<div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>*/}
@@ -95,7 +95,6 @@ export class Products extends Component {
             </div>
         </div>
         </div>
-      </div>
     )
   }
 }

@@ -312,6 +312,70 @@ header .intro-text {
     transition-duration: 330ms;
 }
 
+/* Products Section */
+#products {
+	padding: 100px 0;
+}
+#products h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#products h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#products h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#products .about-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+#products .about-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#products img {
+	width: 520px;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+
+    backgroundColor: 'transparent';
+}
+#products p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+
+#products .custom_boxed {
+    /* border: 2px solid #aaa; */
+    /* background: #000; */
+    background: #eee;
+    border-radius: 25px;
+    /* background: #73AD21; */
+    padding: 20px;
+}
+
+#products .custom_boxed:hover {
+    /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+    transform: translate(0px, -6px);
+    transition-duration: 330ms;
+}
+
 /* Services Section */
 #services {
 	padding: 100px 0;
