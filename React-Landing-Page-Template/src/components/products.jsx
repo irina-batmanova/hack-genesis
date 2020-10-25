@@ -22,7 +22,7 @@ export class Products extends Component {
                     </h1>
 
                     <ul>
-                    {this.props.data ? this.props.data.Prod2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
+                    {this.props.data ? this.props.data.Prod1.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
                     </ul>
 
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
@@ -44,7 +44,7 @@ export class Products extends Component {
                     Облигации
                     </h1>
                     <ul>
-                      {this.props.data ? this.props.data.Prod3.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                      {this.props.data ? this.props.data.Prod2.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
                     </ul>
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
                   <a
@@ -65,7 +65,7 @@ export class Products extends Component {
                     Фонды
                     </h1>
                     <ul>
-                      {this.props.data ? this.props.data.Prod4.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                      {this.props.data ? this.props.data.Prod3.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
                     </ul>
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
                   <a
