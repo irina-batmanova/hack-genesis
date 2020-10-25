@@ -39,6 +39,13 @@ class DemoCarousel extends Component {
         return (
             <div id="carouselshares">
             <div className="container">
+                <div className="row">
+            <div className="col-xs-12 col-md-12">
+              <div className="about-text">
+                <h2>Может быть интересно</h2>
+              </div>
+            </div>
+          </div>
           <div className="row">
                   <Carousel
   swipeable={false}

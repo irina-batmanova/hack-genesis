@@ -1,23 +1,7 @@
 import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import carousel_view1 from "carousel_view1"
-//
-//
-// import AliceCarousel from 'react-alice-carousel';
-// import 'react-alice-carousel/lib/alice-carousel.css';
-//
-//
-// const handleDragStart = (e) => e.preventDefault();
-//
-// const items = [
-//   <img src="img/shares/pic1.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic2.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//       <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//
-// ];
+
 
 const responsive = {
   desktop: {
@@ -37,9 +21,19 @@ const responsive = {
 class DemoCarousel3 extends Component {
     render() {
         return (
+            <div className="wrapper">
             <div id="carouselshares">
             <div className="container">
           <div className="row">
+              <div className="col-xs-12 col-md-12">
+              <div className="about-text">
+                <h2>Может быть интересно</h2>
+              </div>
+              </div>
+          </div>
+
+          <div className="row">
+              <div className="col-xs-12 col-md-12">
                   <Carousel
   swipeable={false}
   draggable={false}
@@ -50,7 +44,7 @@ class DemoCarousel3 extends Component {
   keyBoardControl={true}
   customTransition="all .5"
   transitionDuration={200}
-  containerClass="container"
+  // containerClass="container"
   removeArrowOnDeviceType={["tablet", "mobile"]}
   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
@@ -77,9 +71,11 @@ class DemoCarousel3 extends Component {
                   </div>
 
 </Carousel>;
+              </div>
             </div>
             </div>
             </div>
+                </div>
         );
     }
 }

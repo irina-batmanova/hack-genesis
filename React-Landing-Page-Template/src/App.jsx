@@ -37,7 +37,7 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
-        <Recommend />
+        {/*<Recommend />*/}
         <DemoCarousel3 />
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />

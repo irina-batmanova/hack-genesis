@@ -1,23 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import carousel_view1 from "carousel_view1"
-//
-//
-// import AliceCarousel from 'react-alice-carousel';
-// import 'react-alice-carousel/lib/alice-carousel.css';
-//
-//
-// const handleDragStart = (e) => e.preventDefault();
-//
-// const items = [
-//   <img src="img/shares/pic1.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic2.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//       <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//   <img src="img/shares/pic3.jpg" onDragStart={handleDragStart} className="yours-custom-class" />,
-//
-// ];
 
 const responsive = {
   desktop: {
@@ -39,6 +22,13 @@ class DemoCarousel2 extends Component {
         return (
             <div id="carouselshares">
             <div className="container">
+                <div className="row">
+            <div className="col-xs-12 col-md-12">
+              <div className="about-text">
+                <h2>Может быть интересно</h2>
+              </div>
+            </div>
+          </div>
           <div className="row">
                   <Carousel
   swipeable={false}
