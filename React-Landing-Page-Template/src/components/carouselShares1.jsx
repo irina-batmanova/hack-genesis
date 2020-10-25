@@ -25,7 +25,7 @@ class DemoCarousel1 extends Component {
                <div className="row">
               <div className="col-xs-12 col-md-12">
               <div className="about-text">
-                <h2>Может быть интересно</h2>
+                <h2 style={{'color': '#000'}}>Может быть интересно</h2>
               </div>
               </div>
           </div>
