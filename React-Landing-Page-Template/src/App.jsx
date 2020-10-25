@@ -9,7 +9,7 @@ import DemoCarousel from "./components/carouselShares";
 import Products from "./components/products";
 import Features from './components/features';
 import Shares from './components/shares';
-
+import Recommend from './components/mayBeInteresting';
 import Services from './components/services';
 import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
@@ -35,6 +35,7 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
+        <Recommend />
         {/*<DemoCarousel />*/}
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
