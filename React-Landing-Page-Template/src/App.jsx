@@ -35,16 +35,11 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <Products data={this.state.landingPageData.Products}/>
-        <DemoCarousel />
+        {/*<DemoCarousel />*/}
         <Shares data={this.state.landingPageData.Shares} />
         <Obligations data={this.state.landingPageData.Obligations} />
         <StrucAcc data={this.state.landingPageData.StrucAcc} />
         <About data={this.state.landingPageData.About} />
-
-
-        {/*<Gallery />*/}
-        {/*<Testimonials data={this.state.landingPageData.Testimonials} />*/}
-        {/*<Team data={this.state.landingPageData.Team} />*/}
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

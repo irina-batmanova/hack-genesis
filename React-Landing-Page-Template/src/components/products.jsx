@@ -4,17 +4,18 @@ import React, { Component } from 'react'
 export class Products extends Component {
   render() {
     return (
-        <div id="products">
+                <div className="wrapper">
 
+        <div id="products">
         <div className="container">
             <div className="row">
             {/*<div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>*/}
-            <div className="col-xs-12 col-md-12">
+            <div className="col-xs-15 col-md-15">
               <div className="about-text">
                 <h2>Инвестиционные продукты</h2>
                 {/* <p className="list-style"> */}
                   <div style={{'margin': 'auto', 'width':'100%', 'display': 'flex', 'justify-content': 'center'}}>
-                  <div className="col-lg-3 col-sm-6 col-xs-12">
+                  <div className="col-lg-3 col-sm-6 col-xs-15">
                   <div className="custom_boxed">
                     <h1 style={{'text-align': 'center'}}>
                     Акции
@@ -26,18 +27,18 @@ export class Products extends Component {
 
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
                   <a
-                    href="#features"
+                    href="#shares"
                     className="btn btn-custom btn-lg page-scroll"
                     style={{'text-align': 'center'}}
                   >
-                    Купить
+                    Подробнее
                   </a>{" "}
                   </div>
                   </div>
                   </div>
 
 
-                   <div className="col-lg-3 col-sm-6 col-xs-12">
+                   <div className="col-lg-3 col-sm-6 col-xs-15">
                    <div className="custom_boxed">
                     <h1 style={{'text-align': 'center'}}>
                     Облигации
@@ -47,18 +48,18 @@ export class Products extends Component {
                     </ul>
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
                   <a
-                    href="#features"
+                    href="#obligations"
                     className="btn btn-custom btn-lg page-scroll"
                     style={{'text-align': 'center'}}
                   >
 
-                    Купить
+                    Подробнее
                   </a>{" "}
                     </div>
                     </div>
                     </div>
 
-                    <div className="col-lg-3 col-sm-6 col-xs-12">
+                    <div className="col-lg-3 col-sm-6 col-xs-15">
                     <div className="custom_boxed">
                     <h1 style={{'text-align': 'center'}}>
                     Фонды
@@ -68,11 +69,32 @@ export class Products extends Component {
                     </ul>
                   <div style={{'text-align': 'center', 'padding': '5px'}}>
                   <a
-                    href="#features"
+                    href="#struc_acc"
                     className="btn btn-custom btn-lg page-scroll"
                     style={{'text-align': 'center'}}
                   >
-                    Купить
+                    Подробнее
+                  </a>{" "}
+                  </div>
+                  </div>
+                  </div>
+
+
+                  <div className="col-lg-3 col-sm-6 col-xs-15">
+                    <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Вклады
+                    </h1>
+                    <ul>
+                      {this.props.data ? this.props.data.Prod4.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
+                    </ul>
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#struc_acc"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+                    Подробнее
                   </a>{" "}
                   </div>
                   </div>
@@ -95,6 +117,7 @@ export class Products extends Component {
             </div>
         </div>
         </div>
+                </div>
     )
   }
 }

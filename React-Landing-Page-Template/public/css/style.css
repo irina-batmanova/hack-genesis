@@ -198,6 +198,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.wrapper {
+	min-height: 100%;
+}
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
@@ -762,7 +766,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #929AA2;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {

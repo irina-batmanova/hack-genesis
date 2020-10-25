@@ -3,6 +3,8 @@ import React, { Component } from "react";
 export class Contact extends Component {
   render() {
     return (
+                <div className="wrapper">
+
       <div>
         <div id="contact">
           <div className="container">
@@ -116,6 +118,7 @@ export class Contact extends Component {
           </div>
         </div>
       </div>
+                </div>
     );
   }
 }

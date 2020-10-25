@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export class shares extends Component {
   render() {
     return (
+        <div className="wrapper">
         <div id="shares">
         <div className="container">
           <div className="row">
@@ -22,6 +23,7 @@ export class shares extends Component {
           </div>
         </div>
       </div>
+            </div>
     )
   }
 }

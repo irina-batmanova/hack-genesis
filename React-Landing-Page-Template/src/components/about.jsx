@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 export class about extends Component {
   render() {
     return (
+                <div className="wrapper">
+
         <div id="about">
         <div className="container">
           <div className="row">
@@ -30,6 +32,7 @@ export class about extends Component {
           </div>
         </div>
       </div>
+                </div>
     )
   }
 }

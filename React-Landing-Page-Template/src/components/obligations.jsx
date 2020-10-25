@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 export class obligations extends Component {
   render() {
     return (
+        <div className="wrapper">
+
         <div id="obligations">
         <div className="container">
           <div className="row">
@@ -16,6 +18,7 @@ export class obligations extends Component {
           </div>
         </div>
       </div>
+        </div>
     )
   }
 }
