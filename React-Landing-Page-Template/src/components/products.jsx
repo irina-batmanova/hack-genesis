@@ -12,27 +12,74 @@ export class Products extends Component {
               <div className="about-text">
                 <h2>Инвестиционные продукты</h2>
                 <p className="list-style">
-                  <div className="col-lg-3 col-sm-6 col-xs-12">
-                    <ul>
-                      {this.props.data ? this.props.data.Prod1.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
-                    </ul>
+                  <div style={{'margin': 'auto', 'width':'100%'}}>
+                  <div className="col-lg-1 col-sm-6 col-xs-12">
                   </div>
                   <div className="col-lg-3 col-sm-6 col-xs-12">
+                  <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Акции
+                    </h1>
+
                     <ul>
                     {this.props.data ? this.props.data.Prod2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
                     </ul>
+
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#features"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+                    Купить
+                  </a>{" "}
                   </div>
+                  </div>
+                  </div>
+
+
                    <div className="col-lg-3 col-sm-6 col-xs-12">
+                   <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Облигации
+                    </h1>
                     <ul>
                       {this.props.data ? this.props.data.Prod3.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
                     </ul>
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#features"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+
+                    Купить
+                  </a>{" "}
                     </div>
+                    </div>
+                    </div>
+
                     <div className="col-lg-3 col-sm-6 col-xs-12">
+                    <div className="custom_boxed">
+                    <h1 style={{'text-align': 'center'}}>
+                    Фонды
+                    </h1>
                     <ul>
                       {this.props.data ? this.props.data.Prod4.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
                     </ul>
+                  <div style={{'text-align': 'center', 'padding': '5px'}}>
+                  <a
+                    href="#features"
+                    className="btn btn-custom btn-lg page-scroll"
+                    style={{'text-align': 'center'}}
+                  >
+                    Купить
+                  </a>{" "}
+                  </div>
+                  </div>
                   </div>
 
+                  </div>
                 </p>
               </div>
             </div>

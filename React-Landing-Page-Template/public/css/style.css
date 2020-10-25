@@ -296,6 +296,22 @@ header .intro-text {
 	line-height: 24px;
 	margin: 30px 0;
 }
+
+#about .custom_boxed {
+    /* border: 2px solid #aaa; */
+    /* background: #000; */
+    background: #eee;
+    border-radius: 25px;
+    /* background: #73AD21; */
+    padding: 20px;
+}
+
+#about .custom_boxed:hover {
+    /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+    transform: translate(0px, -6px);
+    transition-duration: 330ms;
+}
+
 /* Services Section */
 #services {
 	padding: 100px 0;
